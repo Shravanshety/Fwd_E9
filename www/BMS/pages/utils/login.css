@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #424874;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    color: #dbe2ef;
+    font-size: large;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+  
+  .h-logo {
+    margin-left: 64px;
+  }
+  
+  .h-to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-right: 64px;
+    color: #dbe2ef;
+  }
+  
+  .h-to a {
+    text-decoration: none;
+    color: #dbe2ef;
+  }
+
+.main {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #1e3a8a;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    color: #4b5563;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #4b5563;
+    font-size: 18px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button[type="submit"] {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #1e40af;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #1e3a8a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #4b5563;
+    text-align: center;
+}
+
+.signup-link a {
+    color: #1e3a8a;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
